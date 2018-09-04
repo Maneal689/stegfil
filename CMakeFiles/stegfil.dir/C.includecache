@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/maneal/Projects/C/stegfil/src/main.c
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+unistd.h
+-
+

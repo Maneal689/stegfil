@@ -1,4 +1,4 @@
-# Install script for directory: /home/maneal/Projects/CPP/stegfil
+# Install script for directory: /home/maneal/Projects/C/stegfil
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maneal/Projects/CPP/stegfil/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maneal/Projects/C/stegfil/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -59,10 +59,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maneal/Projects/CPP/stegfil
+CMAKE_SOURCE_DIR = /home/maneal/Projects/C/stegfil
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maneal/Projects/CPP/stegfil
+CMAKE_BINARY_DIR = /home/maneal/Projects/C/stegfil
 
 #=============================================================================
 # Target rules for target CMakeFiles/stegfil.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/maneal/Projects/CPP/stegfil
 CMakeFiles/stegfil.dir/all:
 	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/depend
 	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maneal/Projects/CPP/stegfil/CMakeFiles --progress-num=1,2 "Built target stegfil"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maneal/Projects/C/stegfil/CMakeFiles --progress-num=1,2 "Built target stegfil"
 .PHONY : CMakeFiles/stegfil.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/stegfil.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stegfil.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/CPP/stegfil/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/C/stegfil/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stegfil.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/CPP/stegfil/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/C/stegfil/CMakeFiles 0
 .PHONY : CMakeFiles/stegfil.dir/rule
 
 # Convenience name for target.

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maneal/Projects/CPP/stegfil
+CMAKE_SOURCE_DIR = /home/maneal/Projects/C/stegfil
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maneal/Projects/CPP/stegfil
+CMAKE_BINARY_DIR = /home/maneal/Projects/C/stegfil
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/CPP/stegfil/CMakeFiles /home/maneal/Projects/CPP/stegfil/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/C/stegfil/CMakeFiles /home/maneal/Projects/C/stegfil/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/CPP/stegfil/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maneal/Projects/C/stegfil/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ stegfil/fast:
 	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/build
 .PHONY : stegfil/fast
 
-src/bin_op.o: src/bin_op.cpp.o
+src/main.o: src/main.c.o
 
-.PHONY : src/bin_op.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/bin_op.cpp.o:
-	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/src/bin_op.cpp.o
-.PHONY : src/bin_op.cpp.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-src/bin_op.i: src/bin_op.cpp.i
+src/main.i: src/main.c.i
 
-.PHONY : src/bin_op.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/bin_op.cpp.i:
-	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/src/bin_op.cpp.i
-.PHONY : src/bin_op.cpp.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/bin_op.s: src/bin_op.cpp.s
+src/main.s: src/main.c.s
 
-.PHONY : src/bin_op.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/bin_op.cpp.s:
-	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/src/bin_op.cpp.s
-.PHONY : src/bin_op.cpp.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/stegfil.dir/build.make CMakeFiles/stegfil.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... stegfil"
 	@echo "... edit_cache"
-	@echo "... src/bin_op.o"
-	@echo "... src/bin_op.i"
-	@echo "... src/bin_op.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
